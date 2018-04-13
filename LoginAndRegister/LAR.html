@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://localhost/MessageBoard/css/LAR.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="head">
+            <div id="login" class="tab selected">登录</div>
+            <div id="sign" class="tab">注册</div>
+        </div>
+        <div id="body">
+            <div class="line">
+                <input id="name" placeholder="用户名" />
+            </div>
+            <div class="line">
+                <input type="password" id="password" placeholder="密码" />
+            </div>
+            <div id="pw2" class="line hidden">
+                <input type="password" id="password2" placeholder="确认密码" />
+            </div>
+            <div class="buttons">
+                <button id="btn">确认</button>
+            </div>
+            <textarea id="response" class="hidden"></textarea>        
+        </div>
+    </div>
+
+    <script src="../zepto.min.js"></script>
+    <script src="LAR.js"></script>
+
+</body>
+
+</html>

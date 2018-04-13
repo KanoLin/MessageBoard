@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+html,
+body {
+    background-color: rgba(53, 53, 52, 0.877);
+    background-image: url("../img/64209157_p0.png");
+    background-attachment:fixed;
+    
+   
+}
+
+#head{
+    background-color:rgb(146, 140, 140);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-image: url("../img/64051606_p0.png");
+}
+#welcome {
+    padding-top:20px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: FangSong;
+    font-size: 2em;
+
+}
+
+#loginb,#logina{
+    position: fixed;
+    right: 80px;
+    top:100px;
+    padding: 2px  2px 2px 2px;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.548);
+    padding-right: 1em;
+    padding-left: 1em;
+    border: 0px solid rgb(95, 189, 218);
+    border-radius: 0px;
+    transition-duration: 0.4s;
+    color: black;
+    text-decoration: none;
+    font-family: FangSong;
+}
+
+#loginb:hover,#logina:hover{
+    background-color: rgb(223, 75, 16);
+    color: white;
+
+}
+
+#zhuangtai {
+    text-align: right;
+}
+
+#shuru {
+    text-align: center;
+}
+#btn{
+    width: 60%;
+    text-align: center;
+    background-color: white;
+    padding: 0;
+    margin-right: 4px;
+    border: 0px solid rgb(235, 126, 126);
+    border-radius: 2px;
+    font-family: FangSong;
+}
+#btn:hover {
+    background-color: rgb(235, 126, 126);
+    color: white;
+}
+
+#shuru textarea {
+    background-color: rgba(235, 231, 231, 0.568);
+    width: 60%;
+    text-align: left;
+    height: 20vh;
+    border: 0px solid blue;
+    font-size: 1em;
+    font-family: NSimSun;
+    resize: none;
+}
+
+#btnzhuxiao {
+    position: fixed;
+    top:100px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.397);
+    color: black;
+    border: 0px solid #008CBA;
+    border-radius: 0px;
+    transition-duration: 0.4s;
+    font-size: 1.2em;
+    padding: 1px 3px 2px 3px;
+    font-family: FangSong;
+}
+
+#btnzhuxiao:hover {
+    background-color: rgb(223, 75, 16);
+    color: white;
+}
+
+
+#add{
+    text-align: center;
+    margin-left: 285px;
+    margin-right: 285px;
+    background-color: rgba(43, 41, 41, 0.075);
+}
+.mes:hover{
+    color:white;
+    background-color: rgba(58, 44, 44, 0.582);
+}
+
+.mes{
+    clear: both;
+    margin-bottom: 25px;
+    border: 0px solid rgb(90, 88, 88);
+    background-color: rgba(58, 44, 44, 0.178);
+    transition-duration: 0.8s;
+
+}
+.mes h4{
+    font-size: 2vw;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+    padding-left: 5px;
+    border-bottom: 1px solid rgba(230, 176, 176, 0.418);
+
+
+}
+.mes p{
+    text-align: right;
+    font-family: STSong;
+    font-size: 2em;
+    font-weight: 200;
+    letter-spacing:1px;
+    color: white;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-bottom: 0.5px solid rgba(230, 176, 176, 0.418);
+
+}
+h5{
+    text-align: right;
+    font-weight: 100;
+    visibility: hidden;
+}
+.mes:hover h5{
+    visibility: visible;
+}
+
+.mes button{
+    text-align: right;
+    /*position: relative;
+    left:370px;*/
+    float: right;
+    display: none;
+    border-radius: 2px;
+    border: 1px solid rgb(209, 199, 195);
+    background-color: rgba(66, 54, 54, 0.432);
+    color: rgb(253, 220, 220);
+}
+
